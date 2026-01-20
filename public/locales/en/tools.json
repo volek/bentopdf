@@ -489,6 +489,12 @@
     "note": "This tool works ONLY with digitally created PDFs. For scanned documents or image-based PDFs, use our OCR PDF tool instead.",
     "convertButton": "Extract Text"
   },
+  "pdfToFb2": {
+    "name": "PDF to FB2",
+    "subtitle": "Convert PDF files to FictionBook (FB2) format. Supports multiple files.",
+    "note": "This tool uses text extraction. It works best with digitally created PDFs.",
+    "convertButton": "Convert to FB2"
+  },
   "digitalSignPdf": {
     "name": "Digital Signature PDF",
     "pageTitle": "Digital Signature PDF - Add Cryptographic Signature | BentoPDF",

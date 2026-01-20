@@ -489,6 +489,12 @@
     "note": "Công cụ này CHỈ hoạt động với các tệp PDF được tạo kỹ thuật số. Đối với tài liệu quét hoặc PDF dựa trên hình ảnh, hãy sử dụng công cụ OCR PDF của chúng tôi.",
     "convertButton": "Trích xuất văn bản"
   },
+  "pdfToFb2": {
+    "name": "PDF sang FB2",
+    "subtitle": "Chuyển đổi tệp PDF sang FictionBook (FB2). Hỗ trợ nhiều tệp.",
+    "note": "Công cụ này dùng trích xuất văn bản và hoạt động tốt nhất với PDF được tạo kỹ thuật số.",
+    "convertButton": "Chuyển sang FB2"
+  },
   "digitalSignPdf": {
     "name": "Chữ ký số PDF",
     "pageTitle": "Chữ ký số PDF - Thêm chữ ký mật mã | BentoPDF",

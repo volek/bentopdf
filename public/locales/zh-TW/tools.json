@@ -481,6 +481,12 @@
     "note": "This tool works ONLY with digitally created PDFs. For scanned documents or image-based PDFs, use our OCR PDF tool instead.",
     "convertButton": "Extract Text"
   },
+  "pdfToFb2": {
+    "name": "PDF 轉 FB2",
+    "subtitle": "將 PDF 檔案轉換為 FictionBook (FB2) 格式。支援多個檔案。",
+    "note": "此工具使用文字擷取，對數位建立的 PDF 效果最佳。",
+    "convertButton": "轉換為 FB2"
+  },
   "digitalSignPdf": {
     "name": "Digital Signature PDF",
     "pageTitle": "Digital Signature PDF - Add Cryptographic Signature | BentoPDF",

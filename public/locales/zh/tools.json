@@ -486,6 +486,12 @@
     "note": "此工具仅适用于数字创建的 PDF。对于扫描文档或基于图像的 PDF，请使用我们的 OCR PDF 工具。",
     "convertButton": "提取文本"
   },
+  "pdfToFb2": {
+    "name": "PDF 转 FB2",
+    "subtitle": "将 PDF 文件转换为 FictionBook (FB2) 格式。支持多个文件。",
+    "note": "此工具使用文本提取，对数字创建的 PDF 效果最佳。",
+    "convertButton": "转换为 FB2"
+  },
   "digitalSignPdf": {
     "name": "PDF 数字签名",
     "pageTitle": "PDF 数字签名 - 添加加密签名 | BentoPDF",

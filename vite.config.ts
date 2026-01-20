@@ -560,6 +560,7 @@ export default defineConfig(() => {
           'pdf-to-csv': resolve(__dirname, 'src/pages/pdf-to-csv.html'),
           'pdf-to-excel': resolve(__dirname, 'src/pages/pdf-to-excel.html'),
           'pdf-to-text': resolve(__dirname, 'src/pages/pdf-to-text.html'),
+          'pdf-to-fb2': resolve(__dirname, 'src/pages/pdf-to-fb2.html'),
           'digital-sign-pdf': resolve(
             __dirname,
             'src/pages/digital-sign-pdf.html'

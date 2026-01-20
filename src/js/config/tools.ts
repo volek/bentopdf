@@ -476,6 +476,12 @@ export const categories = [
         icon: 'ph-text-aa',
         subtitle: 'Extract text from PDF files and save as plain text (.txt).',
       },
+      {
+        href: import.meta.env.BASE_URL + 'pdf-to-fb2.html',
+        name: 'PDF to FB2',
+        icon: 'ph-book-bookmark',
+        subtitle: 'Convert PDF files to FictionBook (FB2) e-books.',
+      },
     ],
   },
   {

@@ -489,6 +489,12 @@
     "note": "Esta herramienta funciona SOLO con PDFs creados digitalmente. Para documentos escaneados o PDFs basados en imágenes, usa nuestra herramienta OCR PDF en su lugar.",
     "convertButton": "Extraer Texto"
   },
+  "pdfToFb2": {
+    "name": "PDF a FB2",
+    "subtitle": "Convierte archivos PDF a FictionBook (FB2). Soporta múltiples archivos.",
+    "note": "Esta herramienta usa extracción de texto. Funciona mejor con PDFs creados digitalmente.",
+    "convertButton": "Convertir a FB2"
+  },
   "digitalSignPdf": {
     "name": "Firma Digital PDF",
     "pageTitle": "Firma Digital PDF - Agregar Firma Criptográfica | BentoPDF",

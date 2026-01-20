@@ -177,6 +177,7 @@ const init = async () => {
     'PDF to TIFF': 'tools:pdfToTiff',
     'PDF to Greyscale': 'tools:pdfToGreyscale',
     'PDF to JSON': 'tools:pdfToJson',
+    'PDF to FB2': 'tools:pdfToFb2',
     'OCR PDF': 'tools:ocrPdf',
     'Alternate & Mix Pages': 'tools:alternateMix',
     'Organize & Duplicate': 'tools:duplicateOrganize',

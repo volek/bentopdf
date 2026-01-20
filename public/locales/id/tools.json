@@ -489,6 +489,12 @@
     "note": "Alat ini bekerja HANYA dengan PDF yang dibuat secara digital. Untuk dokumen terpindai atau PDF berbasis gambar, gunakan alat OCR PDF kami sebagai gantinya.",
     "convertButton": "Ekstrak Teks"
   },
+  "pdfToFb2": {
+    "name": "PDF ke FB2",
+    "subtitle": "Konversi file PDF ke FictionBook (FB2). Mendukung beberapa file.",
+    "note": "Alat ini menggunakan ekstraksi teks dan paling baik untuk PDF yang dibuat secara digital.",
+    "convertButton": "Konversi ke FB2"
+  },
   "digitalSignPdf": {
     "name": "Tanda Tangan Digital PDF",
     "pageTitle": "Tanda Tangan Digital PDF - Tambah Tanda Tangan Kriptografi | BentoPDF",

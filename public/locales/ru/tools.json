@@ -1,0 +1,539 @@
+{
+  "categories": {
+    "popularTools": "Популярные инструменты",
+    "editAnnotate": "Редактирование и аннотации",
+    "convertToPdf": "Конвертация в PDF",
+    "convertFromPdf": "Конвертация из PDF",
+    "organizeManage": "Организация и управление",
+    "optimizeRepair": "Оптимизация и восстановление",
+    "securePdf": "Защита PDF"
+  },
+  "pdfMultiTool": {
+    "name": "PDF Мульти‑инструмент",
+    "subtitle": "Объединение, разделение, организация, удаление, поворот, добавление пустых страниц, извлечение и дублирование в едином интерфейсе."
+  },
+  "mergePdf": {
+    "name": "Объединить PDF",
+    "subtitle": "Объедините несколько PDF в один файл. Закладки сохраняются."
+  },
+  "splitPdf": {
+    "name": "Разделить PDF",
+    "subtitle": "Извлеките диапазон страниц в новый PDF."
+  },
+  "compressPdf": {
+    "name": "Сжать PDF",
+    "subtitle": "Уменьшите размер вашего PDF.",
+    "algorithmLabel": "Алгоритм сжатия",
+    "condense": "Condense (рекомендуется)",
+    "photon": "Photon (для PDF с фото)",
+    "condenseInfo": "Condense использует продвинутое сжатие: удаляет лишнее, оптимизирует изображения, подмножества шрифтов. Подходит для большинства PDF.",
+    "photonInfo": "Photon преобразует страницы в изображения. Используйте для фото‑ориентированных/сканированных PDF.",
+    "photonWarning": "Внимание: текст станет невыделяемым, ссылки перестанут работать.",
+    "levelLabel": "Уровень сжатия",
+    "light": "Лёгкий (сохранить качество)",
+    "balanced": "Сбалансированный (рекомендуется)",
+    "aggressive": "Агрессивный (меньший размер)",
+    "extreme": "Экстремальный (максимальное сжатие)",
+    "grayscale": "Преобразовать в градации серого",
+    "grayscaleHint": "Уменьшает размер, удаляя цветовую информацию",
+    "customSettings": "Пользовательские настройки",
+    "customSettingsHint": "Тонкая настройка параметров сжатия:",
+    "outputQuality": "Качество вывода",
+    "resizeImagesTo": "Изменить размер изображений до",
+    "onlyProcessAbove": "Обрабатывать только больше",
+    "removeMetadata": "Удалять метаданные",
+    "subsetFonts": "Подмножество шрифтов (удалить неиспользуемые глифы)",
+    "removeThumbnails": "Удалять встроенные миниатюры",
+    "compressButton": "Сжать PDF"
+  },
+  "pdfEditor": {
+    "name": "Редактор PDF",
+    "subtitle": "Аннотации, подсветка, редактирование, комментарии, добавление фигур/изображений, поиск и просмотр PDF."
+  },
+  "jpgToPdf": {
+    "name": "JPG в PDF",
+    "subtitle": "Создайте PDF из изображений JPG, JPEG и JPEG2000 (JP2/JPX)."
+  },
+  "signPdf": {
+    "name": "Подписать PDF",
+    "subtitle": "Нарисуйте, введите или загрузите подпись."
+  },
+  "cropPdf": {
+    "name": "Обрезать PDF",
+    "subtitle": "Обрежьте поля всех страниц PDF."
+  },
+  "extractPages": {
+    "name": "Извлечь страницы",
+    "subtitle": "Сохраните выбранные страницы как новые файлы."
+  },
+  "duplicateOrganize": {
+    "name": "Дублировать и упорядочить",
+    "subtitle": "Дублирование, перестановка и удаление страниц."
+  },
+  "deletePages": {
+    "name": "Удалить страницы",
+    "subtitle": "Удалите выбранные страницы документа."
+  },
+  "editBookmarks": {
+    "name": "Редактировать закладки",
+    "subtitle": "Добавление, редактирование, импорт, удаление и извлечение закладок PDF."
+  },
+  "tableOfContents": {
+    "name": "Оглавление",
+    "subtitle": "Создайте страницу оглавления из закладок PDF."
+  },
+  "pageNumbers": {
+    "name": "Нумерация страниц",
+    "subtitle": "Вставьте номера страниц в документ."
+  },
+  "addWatermark": {
+    "name": "Добавить водяной знак",
+    "subtitle": "Наложите текст или изображение на страницы PDF."
+  },
+  "headerFooter": {
+    "name": "Колонтитулы",
+    "subtitle": "Добавьте текст в верхнюю и нижнюю части страниц."
+  },
+  "invertColors": {
+    "name": "Инвертировать цвета",
+    "subtitle": "Создайте «тёмную» версию PDF."
+  },
+  "backgroundColor": {
+    "name": "Цвет фона",
+    "subtitle": "Измените цвет фона PDF."
+  },
+  "changeTextColor": {
+    "name": "Изменить цвет текста",
+    "subtitle": "Измените цвет текста в PDF."
+  },
+  "addStamps": {
+    "name": "Добавить штампы",
+    "subtitle": "Добавляйте штампы изображений с помощью панели аннотаций.",
+    "usernameLabel": "Имя для штампа",
+    "usernamePlaceholder": "Введите имя (для штампов)",
+    "usernameHint": "Это имя появится на созданных штампах."
+  },
+  "removeAnnotations": {
+    "name": "Удалить аннотации",
+    "subtitle": "Удалите комментарии, подсветку и ссылки."
+  },
+  "pdfFormFiller": {
+    "name": "Заполнение PDF‑форм",
+    "subtitle": "Заполняйте формы прямо в браузере. Поддерживаются XFA‑формы."
+  },
+  "createPdfForm": {
+    "name": "Создать PDF‑форму",
+    "subtitle": "Создавайте заполняемые формы с полями drag‑and‑drop."
+  },
+  "removeBlankPages": {
+    "name": "Удалить пустые страницы",
+    "subtitle": "Автоматически обнаруживайте и удаляйте пустые страницы."
+  },
+  "imageToPdf": {
+    "name": "Изображения в PDF",
+    "subtitle": "Конвертируйте JPG, PNG, BMP, GIF, TIFF, PNM, PGM, PBM, PPM, PAM, JXR, JPX, JP2, PSD, SVG, HEIC, WebP в PDF."
+  },
+  "pngToPdf": {
+    "name": "PNG в PDF",
+    "subtitle": "Создайте PDF из одного или нескольких PNG‑изображений."
+  },
+  "webpToPdf": {
+    "name": "WebP в PDF",
+    "subtitle": "Создайте PDF из одного или нескольких WebP‑изображений."
+  },
+  "svgToPdf": {
+    "name": "SVG в PDF",
+    "subtitle": "Создайте PDF из одного или нескольких SVG‑изображений."
+  },
+  "bmpToPdf": {
+    "name": "BMP в PDF",
+    "subtitle": "Создайте PDF из одного или нескольких BMP‑изображений."
+  },
+  "heicToPdf": {
+    "name": "HEIC в PDF",
+    "subtitle": "Создайте PDF из одного или нескольких HEIC‑изображений."
+  },
+  "tiffToPdf": {
+    "name": "TIFF в PDF",
+    "subtitle": "Создайте PDF из одного или нескольких TIFF‑изображений."
+  },
+  "textToPdf": {
+    "name": "Текст в PDF",
+    "subtitle": "Преобразуйте текстовый файл в PDF."
+  },
+  "jsonToPdf": {
+    "name": "JSON в PDF",
+    "subtitle": "Преобразуйте JSON‑файлы в PDF."
+  },
+  "pdfToJpg": {
+    "name": "PDF в JPG",
+    "subtitle": "Преобразуйте каждую страницу PDF в JPG‑изображение."
+  },
+  "pdfToPng": {
+    "name": "PDF в PNG",
+    "subtitle": "Преобразуйте каждую страницу PDF в PNG‑изображение."
+  },
+  "pdfToWebp": {
+    "name": "PDF в WebP",
+    "subtitle": "Преобразуйте каждую страницу PDF в WebP‑изображение."
+  },
+  "pdfToBmp": {
+    "name": "PDF в BMP",
+    "subtitle": "Преобразуйте каждую страницу PDF в BMP‑изображение."
+  },
+  "pdfToTiff": {
+    "name": "PDF в TIFF",
+    "subtitle": "Преобразуйте каждую страницу PDF в TIFF‑изображение."
+  },
+  "pdfToGreyscale": {
+    "name": "PDF в ч/б",
+    "subtitle": "Преобразуйте все цвета в чёрно‑белые."
+  },
+  "pdfToJson": {
+    "name": "PDF в JSON",
+    "subtitle": "Преобразуйте PDF в JSON."
+  },
+  "ocrPdf": {
+    "name": "OCR PDF",
+    "subtitle": "Сделайте PDF распознаваемым и копируемым."
+  },
+  "alternateMix": {
+    "name": "Чередование и микс страниц",
+    "subtitle": "Объединяйте PDF, чередуя страницы. Закладки сохраняются."
+  },
+  "addAttachments": {
+    "name": "Добавить вложения",
+    "subtitle": "Встраивайте один или несколько файлов в PDF."
+  },
+  "extractAttachments": {
+    "name": "Извлечь вложения",
+    "subtitle": "Извлеките все вложения из PDF в ZIP."
+  },
+  "editAttachments": {
+    "name": "Редактировать вложения",
+    "subtitle": "Просмотр или удаление вложений в PDF."
+  },
+  "dividePages": {
+    "name": "Разделить страницы",
+    "subtitle": "Разделение страниц по горизонтали или вертикали."
+  },
+  "addBlankPage": {
+    "name": "Добавить пустую страницу",
+    "subtitle": "Вставьте пустую страницу в любом месте PDF."
+  },
+  "reversePages": {
+    "name": "Обратить порядок страниц",
+    "subtitle": "Переверните порядок всех страниц документа."
+  },
+  "rotatePdf": {
+    "name": "Повернуть PDF",
+    "subtitle": "Поверните страницы с шагом 90°."
+  },
+  "rotateCustom": {
+    "name": "Повернуть на произвольный угол",
+    "subtitle": "Поверните страницы на любой угол."
+  },
+  "nUpPdf": {
+    "name": "N‑Up PDF",
+    "subtitle": "Разместите несколько страниц на одном листе."
+  },
+  "combineToSinglePage": {
+    "name": "Объединить в одну страницу",
+    "subtitle": "Склейте все страницы в один длинный скролл."
+  },
+  "viewMetadata": {
+    "name": "Просмотр метаданных",
+    "subtitle": "Проверьте скрытые свойства PDF."
+  },
+  "editMetadata": {
+    "name": "Редактировать метаданные",
+    "subtitle": "Измените автора, заголовок и другие свойства."
+  },
+  "pdfsToZip": {
+    "name": "PDF в ZIP",
+    "subtitle": "Упакуйте несколько PDF в ZIP‑архив."
+  },
+  "comparePdfs": {
+    "name": "Сравнить PDF",
+    "subtitle": "Сравните два PDF рядом."
+  },
+  "posterizePdf": {
+    "name": "Постеризация PDF",
+    "subtitle": "Разделите большую страницу на несколько меньших."
+  },
+  "fixPageSize": {
+    "name": "Исправить размер страниц",
+    "subtitle": "Стандартизируйте все страницы до единого размера."
+  },
+  "linearizePdf": {
+    "name": "Линеаризовать PDF",
+    "subtitle": "Оптимизируйте PDF для быстрого просмотра в сети."
+  },
+  "pageDimensions": {
+    "name": "Размеры страниц",
+    "subtitle": "Анализ размера страниц, ориентации и единиц."
+  },
+  "removeRestrictions": {
+    "name": "Снять ограничения",
+    "subtitle": "Удалите парольную защиту и ограничения в подписанных PDF."
+  },
+  "repairPdf": {
+    "name": "Восстановить PDF",
+    "subtitle": "Восстановите данные из поврежденных PDF."
+  },
+  "encryptPdf": {
+    "name": "Зашифровать PDF",
+    "subtitle": "Защитите PDF паролем."
+  },
+  "sanitizePdf": {
+    "name": "Очистить PDF",
+    "subtitle": "Удалите метаданные, аннотации, скрипты и другое."
+  },
+  "decryptPdf": {
+    "name": "Расшифровать PDF",
+    "subtitle": "Снимите парольную защиту PDF."
+  },
+  "flattenPdf": {
+    "name": "Сделать плоским PDF",
+    "subtitle": "Сделайте поля форм и аннотации нередактируемыми."
+  },
+  "removeMetadata": {
+    "name": "Удалить метаданные",
+    "subtitle": "Удалите скрытые данные из PDF."
+  },
+  "changePermissions": {
+    "name": "Изменить права",
+    "subtitle": "Задайте или измените права доступа к PDF."
+  },
+  "odtToPdf": {
+    "name": "ODT в PDF",
+    "subtitle": "Конвертируйте ODT‑файлы в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы ODT",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "csvToPdf": {
+    "name": "CSV в PDF",
+    "subtitle": "Конвертируйте таблицы CSV в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы CSV",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "rtfToPdf": {
+    "name": "RTF в PDF",
+    "subtitle": "Конвертируйте документы RTF в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы RTF",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "wordToPdf": {
+    "name": "Word в PDF",
+    "subtitle": "Конвертируйте документы Word (DOCX, DOC, ODT, RTF) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы DOCX, DOC, ODT, RTF",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "excelToPdf": {
+    "name": "Excel в PDF",
+    "subtitle": "Конвертируйте таблицы Excel (XLSX, XLS, ODS, CSV) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы XLSX, XLS, ODS, CSV",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "powerpointToPdf": {
+    "name": "PowerPoint в PDF",
+    "subtitle": "Конвертируйте презентации PowerPoint (PPTX, PPT, ODP) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы PPTX, PPT, ODP",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "markdownToPdf": {
+    "name": "Markdown в PDF",
+    "subtitle": "Пишите или вставляйте Markdown и экспортируйте в красиво оформленный PDF.",
+    "paneMarkdown": "Markdown",
+    "panePreview": "Предпросмотр",
+    "btnUpload": "Загрузить",
+    "btnSyncScroll": "Синхр. прокрутка",
+    "btnSettings": "Настройки",
+    "btnExportPdf": "Экспорт PDF",
+    "settingsTitle": "Настройки Markdown",
+    "settingsPreset": "Пресет",
+    "presetDefault": "По умолчанию (GFM‑подобный)",
+    "presetCommonmark": "CommonMark (строгий)",
+    "presetZero": "Минимальный (без функций)",
+    "settingsOptions": "Параметры Markdown",
+    "optAllowHtml": "Разрешить HTML‑теги",
+    "optBreaks": "Преобразовывать переносы строк в <br>",
+    "optLinkify": "Автоссылки для URL",
+    "optTypographer": "Типограф (умные кавычки и т.п.)"
+  },
+  "pdfBooklet": {
+    "name": "PDF Буклет",
+    "subtitle": "Переставляет страницы для двусторонней печати буклета. Сложите и скрепите, чтобы получить буклет.",
+    "howItWorks": "Как это работает:",
+    "step1": "Загрузите PDF‑файл.",
+    "step2": "Страницы будут переставлены в порядке буклета.",
+    "step3": "Печать двусторонняя, переворот по короткой стороне, сложить и скрепить.",
+    "paperSize": "Размер бумаги",
+    "orientation": "Ориентация",
+    "portrait": "Книжная",
+    "landscape": "Альбомная",
+    "pagesPerSheet": "Страниц на лист",
+    "createBooklet": "Создать буклет",
+    "processing": "Обработка...",
+    "pageCount": "Количество страниц будет дополнено до кратного 4 при необходимости."
+  },
+  "xpsToPdf": {
+    "name": "XPS в PDF",
+    "subtitle": "Конвертируйте документы XPS/OXPS в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы XPS, OXPS",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "mobiToPdf": {
+    "name": "MOBI в PDF",
+    "subtitle": "Конвертируйте электронные книги MOBI в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы MOBI",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "epubToPdf": {
+    "name": "EPUB в PDF",
+    "subtitle": "Конвертируйте электронные книги EPUB в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы EPUB",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "fb2ToPdf": {
+    "name": "FB2 в PDF",
+    "subtitle": "Конвертируйте электронные книги FictionBook (FB2) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы FB2",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "cbzToPdf": {
+    "name": "CBZ в PDF",
+    "subtitle": "Конвертируйте архивы комиксов (CBZ/CBR) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы CBZ, CBR",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "wpdToPdf": {
+    "name": "WPD в PDF",
+    "subtitle": "Конвертируйте документы WordPerfect (WPD) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы WPD",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "wpsToPdf": {
+    "name": "WPS в PDF",
+    "subtitle": "Конвертируйте документы WPS Office в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы WPS",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "xmlToPdf": {
+    "name": "XML в PDF",
+    "subtitle": "Конвертируйте XML‑документы в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы XML",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "pagesToPdf": {
+    "name": "Pages в PDF",
+    "subtitle": "Конвертируйте документы Apple Pages в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы Pages",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "odgToPdf": {
+    "name": "ODG в PDF",
+    "subtitle": "Конвертируйте графику OpenDocument (ODG) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы ODG",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "odsToPdf": {
+    "name": "ODS в PDF",
+    "subtitle": "Конвертируйте таблицы OpenDocument (ODS) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы ODS",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "odpToPdf": {
+    "name": "ODP в PDF",
+    "subtitle": "Конвертируйте презентации OpenDocument (ODP) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы ODP",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "pubToPdf": {
+    "name": "PUB в PDF",
+    "subtitle": "Конвертируйте файлы Microsoft Publisher (PUB) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы PUB",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "vsdToPdf": {
+    "name": "VSD в PDF",
+    "subtitle": "Конвертируйте файлы Microsoft Visio (VSD, VSDX) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы VSD, VSDX",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "psdToPdf": {
+    "name": "PSD в PDF",
+    "subtitle": "Конвертируйте файлы Adobe Photoshop (PSD) в PDF. Поддерживаются несколько файлов.",
+    "acceptedFormats": "Файлы PSD",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "pdfToSvg": {
+    "name": "PDF в SVG",
+    "subtitle": "Преобразуйте каждую страницу PDF в векторный SVG для идеального качества при любом масштабе."
+  },
+  "extractTables": {
+    "name": "Извлечение таблиц из PDF",
+    "subtitle": "Извлекайте таблицы из PDF и экспортируйте в CSV, JSON или Markdown."
+  },
+  "pdfToCsv": {
+    "name": "PDF в CSV",
+    "subtitle": "Извлекайте таблицы из PDF и конвертируйте в CSV."
+  },
+  "pdfToExcel": {
+    "name": "PDF в Excel",
+    "subtitle": "Извлекайте таблицы из PDF и конвертируйте в Excel (XLSX)."
+  },
+  "pdfToText": {
+    "name": "PDF в текст",
+    "subtitle": "Извлекайте текст из PDF и сохраняйте в .txt. Поддерживаются несколько файлов.",
+    "note": "Этот инструмент работает ТОЛЬКО с цифровыми PDF. Для сканов или изображений используйте OCR PDF.",
+    "convertButton": "Извлечь текст"
+  },
+  "pdfToFb2": {
+    "name": "PDF в FB2",
+    "subtitle": "Конвертируйте PDF‑файлы в формат FictionBook (FB2). Поддерживаются несколько файлов.",
+    "note": "Инструмент использует извлечение текста и лучше всего подходит для цифровых PDF.",
+    "convertButton": "Конвертировать в FB2"
+  },
+  "digitalSignPdf": {
+    "name": "Цифровая подпись PDF",
+    "pageTitle": "Цифровая подпись PDF — Добавить криптографическую подпись | BentoPDF",
+    "subtitle": "Добавьте криптографическую цифровую подпись в PDF с использованием сертификатов X.509. Поддерживаются PKCS#12 (.pfx, .p12) и PEM. Ваш закрытый ключ не покидает браузер.",
+    "certificateSection": "Сертификат",
+    "uploadCert": "Загрузить сертификат (.pfx, .p12)",
+    "certPassword": "Пароль сертификата",
+    "certPasswordPlaceholder": "Введите пароль сертификата",
+    "certInfo": "Информация о сертификате",
+    "certSubject": "Субъект",
+    "certIssuer": "Издатель",
+    "certValidity": "Действителен",
+    "signatureDetails": "Детали подписи (опционально)",
+    "reason": "Причина",
+    "reasonPlaceholder": "например, я утверждаю этот документ",
+    "location": "Местоположение",
+    "locationPlaceholder": "например, Москва, Россия",
+    "contactInfo": "Контакты",
+    "contactPlaceholder": "например, email@example.com",
+    "applySignature": "Применить цифровую подпись",
+    "successMessage": "PDF успешно подписан! Подпись можно проверить в любом PDF‑ридере."
+  },
+  "validateSignaturePdf": {
+    "name": "Проверка подписи PDF",
+    "pageTitle": "Проверка подписи PDF — Верификация цифровых подписей | BentoPDF",
+    "subtitle": "Проверяйте цифровые подписи PDF: валидность сертификата, сведения о подписанте и целостность документа. Вся обработка происходит в браузере."
+  },
+  "emailToPdf": {
+    "name": "Email в PDF",
+    "subtitle": "Конвертируйте письма (EML, MSG) в PDF. Поддерживаются экспорты Outlook и стандартные форматы.",
+    "acceptedFormats": "Файлы EML, MSG",
+    "convertButton": "Конвертировать в PDF"
+  },
+  "fontToOutline": {
+    "name": "Шрифты в контуры",
+    "subtitle": "Преобразуйте все шрифты в векторные контуры для стабильного отображения на всех устройствах."
+  },
+  "deskewPdf": {
+    "name": "Выпрямить PDF",
+    "subtitle": "Автоматически выпрямляет наклоненные сканы с помощью OpenCV."
+  }
+}

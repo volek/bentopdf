@@ -22,6 +22,9 @@ ENV SIMPLE_MODE=$SIMPLE_MODE
 ARG COMPRESSION_MODE=all
 ENV COMPRESSION_MODE=$COMPRESSION_MODE
 
+# Increase Node heap for build in container (keep below Docker memory limit)
+ENV NODE_OPTIONS=--max-old-space-size=2048
+
 # global arg to local arg
 ARG BASE_URL
 ENV BASE_URL=$BASE_URL
