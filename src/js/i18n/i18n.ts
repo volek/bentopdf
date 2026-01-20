@@ -219,6 +219,14 @@ export const rewriteLinks = (): void => {
       return;
     }
 
+    // Check if href already starts with a language code (for relative paths)
+    const relativeLangMatch = href.match(
+      /^(en|fr|es|de|ru|zh|zh-TW|vi|tr|id|it|pt)(\/|$)/
+    );
+    if (relativeLangMatch) {
+      return;
+    }
+
     let newHref: string;
     if (basePath && basePath !== '/' && href.startsWith(basePath)) {
       const pathAfterBase = href.slice(basePath.length);
@@ -236,7 +244,7 @@ export const rewriteLinks = (): void => {
         newHref = `/${currentLang}/`;
       }
     } else {
-      newHref = `${currentLang}/${href}`;
+      newHref = `/${currentLang}/${href}`;
     }
 
     newHref = newHref.replace(/([^:])\/+/g, '$1/');
